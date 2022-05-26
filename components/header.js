@@ -1,30 +1,33 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import OurTeam from '../pages/ourteam'
+import Link from 'next/link';  
 
 export default function Header() {
   return (
     <div className={styles.container}>   
   <div className={styles.headermain}>
-    <div className={styles.logo}><img src='/logo.png' alt='Logo'/></div>
+    <div className={styles.logo}>
+    <a href="/"> <img src='/logo.png' alt='Logo'/></a></div>
     <div className={styles.menu}>
     <ul>
 		<li><a href="#">Services</a>
       <ul>
-        <li><a href="#">Cloud Strategy</a></li>
-        <li><a href="#">Cloud Native Development</a></li>
-        <li><a href="#">Cloud Monitoring</a></li>
-        <li><a href="#">Cloud Migration</a></li>		
-        <li><a href="#">Cloud Security</a></li>
-        <li><a href="#">Cloud Infra Management</a></li>
+        <li><Link href="/cloudstrategy">Cloud Strategy</Link></li>
+        <li><Link href="/cloudnative">Cloud Native Development</Link></li>
+        <li><Link href="/cloudmonitoring">Cloud Monitoring</Link></li>
+        <li><Link href="/cloudmigration">Cloud Migration</Link></li>		
+        <li><Link href="/cloudsecurity">Cloud Security</Link></li>
+        <li><Link href="/cloudinfra">Cloud Infra Management</Link></li>
       </ul>
     </li>
-		<li><a href="#">Blog</a></li>
-    <li><a href="#">Case Studies</a></li>
-    <li><a href="#">Events</a></li>
-    <li><a href="#">Partners</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+		<li><Link href="/blog">Blog</Link></li>
+    <li><Link href="/case-studies">Case Studies</Link></li>
+    <li><Link href="/events">Events</Link></li>
+    <li><Link href="/partners">Partners</Link></li>
+    <li><Link href="/ourteam">About</Link></li>
+    <li><Link href="/contact">Contact</Link></li>
 		</ul>
     </div>
   </div> 

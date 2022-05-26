@@ -2,9 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'; 
 import Header from '../components/header';
-import Services from '../components/services';
-import About from '../components/About';
 import Footer from '../components/Footer';
+import Services from '../components/services';
+import About from '../components/About'; 
+import OurTeam from '../pages/OurTeam';
 import News from '../components/News';
 import Testimonials from '../components/Testimonials';
 import Subscribe from '../components/newsletter';
@@ -16,8 +17,7 @@ export default function Home() {
       <Head>
         <title>Cloud Technology &#38; Advisory</title>
         <meta name="description" content="Clear Cloudify Cloud Consulting Company" />
-        <link rel="icon" href="/favicon.ico" />
-        
+        <link rel="icon" href="/favicon.ico" /> 
       </Head> 
       <Header />
 
