@@ -14,7 +14,7 @@ export default function Header() {
     <ul>
 		<li><a href="#">Services</a>
       <ul>
-        <li><Link href="/cloudstrategy">Cloud Strategy</Link></li>
+        <li><Link href="/cloudstrategy">Cloud Advisory</Link></li>
         <li><Link href="/cloudnative">Cloud Native Development</Link></li>
         <li><Link href="/cloudmonitoring">Cloud Monitoring</Link></li>
         <li><Link href="/cloudmigration">Cloud Migration</Link></li>		
@@ -23,7 +23,7 @@ export default function Header() {
       </ul>
     </li>
 		<li><Link href="/blog">Blog</Link></li>
-    <li><Link href="/case-studies">Case Studies</Link></li>
+    <li><Link href="/casestudies">Case Studies</Link></li>
     <li><Link href="/events">Events</Link></li>
     <li><Link href="/partners">Partners</Link></li>
     <li><Link href="/ourteam">About</Link></li>
