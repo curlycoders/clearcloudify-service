@@ -30,7 +30,7 @@ export default function Home() {
       <video id={styles.intro}   playsInline
           loop
           muted
-          disablePictureInPicture controlsList="nodownload" width="100%" height="500" autoplay="autoplay" >
+          disablePictureInPicture controlsList="nodownload" width="100%" height="500" autoPlay="autoplay" >
       <source src="./intro.mp4" type="video/mp4"/> 
       Your browser does not support the video tag.
       </video> 

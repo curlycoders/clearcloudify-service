@@ -9,10 +9,10 @@ export default function Header() {
     <div className={styles.container}>   
   <div className={styles.headermain}>
     <div className={styles.logo}>
-    <a href="/"> <img src='/logo.png' alt='Logo'/></a></div>
+    <Image src='/logo.png' alt='Logo' width="120" height="60"/></div>
     <div className={styles.menu}>
     <ul>
-		<li><a href="#">Services</a>
+		<li><Link href="#">Services</Link>
       <ul>
         <li><Link href="/cloudstrategy">Cloud Advisory</Link></li>
         <li><Link href="/cloudnative">Cloud Native Development</Link></li>

@@ -28,7 +28,7 @@ function contact() {
            </div>
            <div className={styles.formgroup}>
              <label>Message</label>
-             <textarea class={styles.formcontrol}  rows="3"></textarea>
+             <textarea className={styles.formcontrol}  rows="3"></textarea>
             
            </div>
            <div className={styles.formgroup}>

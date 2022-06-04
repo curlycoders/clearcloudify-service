@@ -66,7 +66,7 @@ effectively implement cloud monitoring.</p>
 related stakeholders</li>
 <li>It’s always important to test your tools’ performance to ensure they don’t fail when required</li>
 </ul>
-<p>As the number of cyber attacks rise, it's important for cloud monitoring services to detect possible
+<p>As the number of cyber attacks rise, its important for cloud monitoring services to detect possible
 breaches, identify security gaps, and secure the network well before an attack happens. <br/> It’s time to add an effective ‘Cloud Based Monitoring’ system to your cloud environment.</p>
 </div>
 <Footer/>
