@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import OurTeam from '../pages/ourteam'
 import Link from 'next/link';  
 
 export default function Header() {
@@ -9,7 +8,7 @@ export default function Header() {
     <div className={styles.container}>   
   <div className={styles.headermain}>
     <div className={styles.logo}>
-    <Image src='/logo.png' alt='Logo' width="120" height="60"/></div>
+    <Image src='/logo.png' width="160" height="60" alt='Logo'></Image></div>
     <div className={styles.menu}>
     <ul>
 		<li><Link href="#">Services</Link>

@@ -1,5 +1,6 @@
-import styles from '../styles/Home.module.css'
-import Image from 'next/image'
+import styles from '../styles/Home.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function News() {
   return (
@@ -16,7 +17,7 @@ export default function News() {
                  <span className={styles.blogpostchip}>cloud</span>  <span className={styles.blogpostchip}>mechine learning</span>
                  <h1>5 reasons why AWS is best</h1>
                   <p>Amazon Web Services - AWS has been guarding its ground of providing a cross functional, resource...</p>
-                 <a href='#'>Read More</a>
+                 <Link href='#'>Read More</Link>
 
                </div>
             </div>
@@ -36,7 +37,7 @@ export default function News() {
             <div className={styles.blogpostsmall}> 
               <h3> Data Center Migration</h3>
               <p>As a WordPress developer, whenever you build a new theme, plugin or even if you are testing out new...</p>
-              <a href='#'>Read more</a>
+              <Link href='#'>Read more</Link>
               </div>  
           </div>
           <div className={styles.col4}>
@@ -44,7 +45,7 @@ export default function News() {
           <div className={styles.blogpostsmall}> 
               <h3> Data Center Migration</h3>
               <p>As a WordPress developer, whenever you build a new theme, plugin or even if you are testing out new...</p>
-              <a href='#'>Read more</a>
+              <Link href='#'>Read more</Link>
               </div>   
           </div>
           <div className={styles.col4}>
@@ -52,7 +53,7 @@ export default function News() {
           <div className={styles.blogpostsmall}> 
               <h3> Data Center Migration</h3>
               <p>As a WordPress developer, whenever you build a new theme, plugin or even if you are testing out new...</p>
-              <a href='#'>Read more</a>
+              <Link href='#'>Read more</Link>
               </div>   
          
           </div>

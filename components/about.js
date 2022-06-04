@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'; 
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
           <p>
         Clear Cloudify is a Technology Advisory of Ana-Data Consulting Inc., We deliver solid and widespread advocacy to enable your Digital Modernization journey. Our team of Cloud Advocates and Engineers will provide Technology Leadership, Solutions Consulting, Best Practices, Research, Implementation, Support and Training to seamlessly move your IT workloads to Cloud infrastructure.
         </p>
-        <a href='#'>Read more</a>
+        <Link href='#'>Read more</Link>
           </div>
         </div> 
       </div>
