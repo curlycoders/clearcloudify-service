@@ -1,12 +1,9 @@
-import React, { Component } from 'react'; 
 import Header from '../components/header';
 import Footer from '../components/Footer';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css'
-import Head from 'next/head'
-
-class Partners extends Component { 
-    render() {
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';
+export default function Partners() {   
       return(
           <> 
            <Head>
@@ -33,5 +30,4 @@ class Partners extends Component {
                <Footer/>
           </>
       )
-    }}
-export default Partners
+    }

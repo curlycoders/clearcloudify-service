@@ -1,15 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head'; 
 import styles from '../styles/Home.module.css'; 
 import Header from '../components/header';
 import Footer from '../components/Footer';
 import Services from '../components/services';
-import About from '../components/About'; 
-import OurTeam from '../pages/OurTeam';
+import About from '../components/About';  
 import News from '../components/News';
 import Testimonials from '../components/Testimonials';
-import Subscribe from '../components/newsletter';
-import Link from 'next/link' ; 
+import Subscribe from '../components/newsletter'; 
 
 export default function Home() {
   return (

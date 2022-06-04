@@ -1,13 +1,12 @@
-import React from 'react'; 
 import Header from '../components/header';
 import Footer from '../components/Footer';
-import styles from '../styles/Home.module.css'
-import Head from 'next/head'
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';
  
 
 const cloudstrategy = () => {
     return (
-        <React.Fragment>
+        <>
             <Head>
             <title>Cloud Strategy - Clear Cloudify</title>
             <meta name="description" content="Clear Cloudify Cloud Consulting Company" /> 
@@ -22,7 +21,7 @@ business objectives that envisages the company to a multifold of favorable outco
 </p>
 <p>Without a cloud strategy, an organization may try to accommodate a multitude of choices that often
 conflict with each other and fail to guide the business towards achieving its important corporate goals.
-With no cloud strategy, a firm doesn’t have traceable business objectives and lacks the appropriate
+With no cloud strategy, a firm doesnt have traceable business objectives and lacks the appropriate
 focus for the key challenges that need to be solved.</p>
 <h5>Cloud Strategy Objectives</h5>
   <ul>
@@ -68,7 +67,7 @@ core enterprise modeling technique, thus laying the foundation for cloud adoptio
 company to follow.</p>
 <strong>Scope the current business context</strong>
 <p>To define the current business context, we capture the macro-context of the business. The main
-deliverable of a current business context analysis is to set up the business’ direction and define the
+deliverable of a current business context analysis is to set up the business direction and define the
 cloud needs based on the strategy. No doubt there may be gaps between the current capabilities and
 those required to fulfill the cloud-enablement of a business.
 </p>
@@ -104,7 +103,7 @@ appropriate actions or further analysis.</li>
 <p>We define the current, strategic, high potential, or key operational cloud support systems in the
 McFarlan IT portfolio grid. Mapping the cloud infrastructure on the McFarlan IT portfolio grid helps to
 match business requirements to the cloud and to evaluate how existing systems are contributing to a
-company’s business objectives. It also assists in identifying how an organization can achieve any
+company business objectives. It also assists in identifying how an organization can achieve any
 strategic business objective by utilizing the cloud.</p>
 <p><strong>Analyze the Future State</strong> The key objective of the future/target state analysis is to develop a vision of the
 cloud-enabled enterprise architecture. This includes both business and technological aspects of the
@@ -126,7 +125,7 @@ returns (cost savings) and non-financial returns (operational risks).</li>
 <ul>
     <li>Determining and categorizing tangible and intangible value drivers, as well as the financial and
 nonfinancial benefits, for the organization in the cloud.</li>
-<li>Creating a cost–benefit model and estimating some of the financial metrics (ROI, TCO, NPV, and
+<li>Creating a cost benefit model and estimating some of the financial metrics (ROI, TCO, NPV, and
 other tangible financial metrics) and critically assessing them within the cloud context.</li>
 </ul>
 <strong>Feasibility Study</strong>
@@ -142,10 +141,10 @@ reorganization or simplification.</li>
 <li>Developing an action plan to handle the challenges and issues determined by the evaluation.</li>
 </ul>
 <span>Our Cloud Architecture team will provide two distinct strategies:</span>
-<p><strong>Lift and Shift</strong> – Create a clone of the current, in-house hardware and software and map it onto the
+<p><strong>Lift and Shift</strong> Create a clone of the current, in-house hardware and software and map it onto the
 cloud. While no distinct technical or business benefits would be derived from this approach, it would
 create comfort.</p>
-<p><strong>Shift and Adopt</strong> – Break each existing application component and adopt the best services for the cloud,
+<p><strong>Shift and Adopt</strong>  Break each existing application component and adopt the best services for the cloud,
 enabling the organization to ensure the application is built for the cloud (not just on the cloud). Shift and Adopt was selected along with extensive document and training requirements. To implement
 the strategy, we will perform a component-by-component analysis against the relevant Cloud service
 offering.</p>
@@ -153,7 +152,7 @@ offering.</p>
 <p>Risk-aware cloud strategies are critical to the success of the business. A risk assessment helps to
 determine and validate potential issues, and compiles the appropriate mitigation strategies.</p>
 <p>Before an organization can assess or mitigate risk, it must first identify the likely risks that may occur.
-There’s no fail-safe method to identifying business risks, however companies can rely on their past
+There is no fail-safe method to identifying business risks, however companies can rely on their past
 experiences to estimate what may or could happen.</p>
 <p>A business risk assessment includes determining potential risks and then categorizing them into two
 categories:</p>
@@ -188,7 +187,7 @@ strategy and its implementation success.</li>
 therefore you are prepared for a successful cloud adoption journey.</p>
 </div>
 <Footer/>
-        </React.Fragment>
+        </>
     )
 }
 

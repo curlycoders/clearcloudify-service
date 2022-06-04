@@ -1,11 +1,10 @@
-import React, { Component } from 'react'; 
 import Header from '../components/header';
 import Footer from '../components/Footer';
 import { InlineWidget } from "react-calendly";
-import Head from 'next/head'
+import Head from 'next/head';
 
-class Events extends Component { 
-    render() {
+
+export default function Events() {
       return(
           <>
             <Head>
@@ -18,5 +17,4 @@ class Events extends Component {
                <Footer/>
           </>
       )
-    }}
-export default Events
+    } 

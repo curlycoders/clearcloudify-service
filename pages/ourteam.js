@@ -1,10 +1,9 @@
 import styles from '../styles/Home.module.css'
-import Head from 'next/head';  
-import Image from 'next/image';
+import Head from 'next/head';   
 import Header from '../components/header';
 import Footer from '../components/Footer';
 
-const ourteam = () => {
+export default function ourteam() {    
     const name = 'About ClearCloudify'
     return (
         <>
@@ -34,7 +33,7 @@ const ourteam = () => {
                <div className={styles.row}>
                 <div className={styles.col4}>
                     <h1 className="text-center">Lal Vaghji</h1>
-                    <h6 className="text-center">Founder & CEO</h6>
+                    <h6 className="text-center">Founder &#38; CEO</h6>
                     <p className="text-justify">Lal leads the business and growth of ClearCloudify. Lal has been heading Ana-Data Consulting Inc., for 28 years serving superior technology solutions to clients globally across multiple business domains. He is an accomplished entrepreneur with proven track record of identifying new opportunities and sustaining extraordinary business growth.</p>
                 </div>
                 <div className={styles.col4}>
@@ -54,6 +53,4 @@ const ourteam = () => {
                 <Footer/>
             </>
     )
-}
-
-export default ourteam
+} 

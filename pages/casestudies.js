@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import Header from '../components/header';
 import Footer from '../components/Footer';
 import Link from 'next/link';
-import styles from '../styles/Home.module.css' ;
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import VideoLabelIcon from '@mui/icons-material/VideoLabel';
+import styles from '../styles/Home.module.css';
 import Image from 'next/image';
-import Head from 'next/head'
+import Head from 'next/head';
 
 class casestudies extends Component { 
     render() {

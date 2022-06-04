@@ -1,13 +1,11 @@
-import React from 'react'; 
 import Header from '../components/header';
 import Footer from '../components/Footer';
-import styles from '../styles/Home.module.css'
-import Head from 'next/head'
-import Image from 'next/image'
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 const cloudinfra = () => {
     return (
-      <React.Fragment>
+      <>
           <Head>
           <title>Cloud infrastructure management - Clear Cloudify</title>
           <meta name="description" content="Clear Cloudify Cloud Consulting Company" /> 
@@ -20,7 +18,7 @@ const cloudinfra = () => {
               <p>Cloud infrastructure management is the setup, configuration, monitoring, and optimization of the
 components of cloud infrastructure. It happens through a web-based interface. Cloud infrastructure
 management gives enterprises some level of scalability and consolidates IT resources. Users can share
-the same infrastructure without compromising each other’s data.
+the same infrastructure without compromising each others data.
 </p>
 <p>We help businesses in designing and building virtualized environments, migrating workloads,
 databases, and IT systems to a cloud environment. Our services accelerate build and delivery through
@@ -43,8 +41,8 @@ other instruments seamlessly. They require high levels of granular visibility an
 <strong>Integration with Data Center Management Tools</strong>
 <p>Most times, you will need to integrate new cloud management solutions with components of legacy
 data centers. Legacy data centers have a variety of tools used for provisioning, billing, customer service,
-systems management, security, directory, and others. Cloud infrastructure management solutions don’t
-replace these tools. It’s, therefore, important to have APIs that integrate into existing OAMP (Operation,
+systems management, security, directory, and others. Cloud infrastructure management solutions dont
+replace these tools. Its, therefore, important to have APIs that integrate into existing OAMP (Operation,
 Administration, Maintenance, and Provisioning) systems.</p>
 <strong>End-User, Developer, and Administrator Dashboards</strong>
 <p>Self-service portals and deployment models help shield the end-user from the complexity of the cloud.
@@ -62,7 +60,7 @@ SLAs (Service Level Agreements). Cloud computing virtualizes all data center com
 resultant abstraction requires cloud infrastructure management solutions that can create policies
 around workload and data management. This ensures maximum performance and efficiency for the
 applications running in the cloud. This is particularly important when systems hit peak demand. The
-system should dynamically prioritize resources on the fly depending on the enterprises’ priorities or
+system should dynamically prioritize resources on the fly depending on the enterprises priorities or
 various workloads.</p>
 <h6><strong>Benefits of Cloud Infrastructure Management</strong></h6>
 <strong>No overhead of Hardware Maintenance</strong>
@@ -70,7 +68,7 @@ various workloads.</p>
 the “zero server maintenance” it offers. Having no hardware on-site means no real-time maintenance or
 up-gradation is required. Hardware systems should be replaced after a year or two that could cost you
 money and time as it is a complex operation to carry out. <br></br>
-With cloud computing services, you don’t have to go through these time-laborious and expensive
+With cloud computing services, you dont have to go through these time-laborious and expensive
 procedures, letting you invest your vital resources in other important aspects.
 </p>
 <strong>Custom and Integrated Service</strong>
@@ -113,7 +111,7 @@ the environment. <br></br> We help you modernize and migrate your legacy IT infr
 flexibility and agility.</p>
 </div>
           <Footer/>
-      </React.Fragment>
+      </>
     )
 }
 

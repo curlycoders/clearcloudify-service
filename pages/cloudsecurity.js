@@ -1,13 +1,11 @@
-import React from 'react'; 
 import Header from '../components/header';
 import Footer from '../components/Footer';
-import styles from '../styles/Home.module.css'
-import Head from 'next/head' 
-import Image from 'next/image'
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 const cloudsecurity = () => {
     return (
-         <React.Fragment>
+         <>
               <Head>
             <title>Cloud Security - Clear Cloudify</title>
             <meta name="description" content="Clear Cloudify Cloud Consulting Company" /> 
@@ -26,11 +24,11 @@ maturity, not a destination.</p>
 efficient infrastructure for your applications. Our cloud security experts will monitor your infrastructure
 and also build, maintain a broad selection of innovative security services, which can help you simplify
 meeting your own security and regulatory requirements. Our security services and solutions are
-focused on helping you implement your organization’s optimal security posture by delivering the
+focused on helping you implement your organizations optimal security posture by delivering the
 following key strategic steps:</p>
 <p><strong>Preventive</strong> - We will define user permissions and identities, infrastructure protection and data
 protection measures for a smooth and planned Cloud adoption strategy.</p>
-<p><strong>Detective</strong> - We gain visibility into your organization’s security posture with logging and monitoring
+<p><strong>Detective</strong> - We gain visibility into your organizations security posture with logging and monitoring
 services. We ingest this information into a scalable platform for event management, testing, and
 auditing.</p>
 <p><strong>Responsive</strong> - We automate incident response and recovery to help shift the primary focus of security
@@ -89,7 +87,7 @@ competitive. Our cloud security products and services will enable your cloud ado
 cloud security strategy that fits your business needs.</p>
 </div>
              <Footer/>
-         </React.Fragment>
+         </>
     )
 }
 

@@ -1,13 +1,11 @@
-import React from 'react'; 
 import Header from '../components/header';
 import Footer from '../components/Footer';
-import styles from '../styles/Home.module.css'
-import Head from 'next/head';  
-import Image from 'next/image'
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';   
 
 const cloudnative = () => {
     return ( 
-        <React.Fragment>
+        <>
               <Head>
             <title>Cloud Native Applications - Clear Cloudify</title>
             <meta name="description" content="Clear Cloudify Cloud Consulting Company" /> 
@@ -44,9 +42,9 @@ serverless functions to build your applications in Cloud.</p>
 <p><strong>Serverless Deployment</strong> - Build self-healing, auto-scaling, applications, unchained from the limitations
 of servers. Serverless architectures offer the highest efficiency and cost benefits of the cloud by pushing
 nearly all infrastructure and software management to the platform.</p>
-<p><strong>Containerization</strong> - When serverless isn’t an option, many prefer containers for deploying modern,
+<p><strong>Containerization</strong> - When serverless isnt an option, many prefer containers for deploying modern,
 complex, distributed applications. Containers often require minimal changes to the application, making
-them the perfect evolutionary step when significant refactoring isn’t appropriate. </p>
+them the perfect evolutionary step when significant refactoring isnt appropriate. </p>
 <p><strong>Replatforming</strong> - Incrementally modernize your application by adopting managed platform services as
 drop-in replacements for databases, messaging, API management, logging, monitoring, alerting, and
 telemetry. </p>
@@ -54,7 +52,7 @@ telemetry. </p>
 modernization roadmap with full confidence.</p>
 </div>
 <Footer/>
-        </React.Fragment>
+        </>
     )
 }
 export default cloudnative;

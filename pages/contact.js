@@ -1,7 +1,7 @@
 import Header from '../components/header';
 import Footer from '../components/Footer';
-import styles from '../styles/Home.module.css'
-import Head from 'next/head'
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 function contact() { 
   return (

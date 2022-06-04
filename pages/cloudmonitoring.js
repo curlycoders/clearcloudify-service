@@ -1,13 +1,11 @@
-import React from 'react'; 
 import Header from '../components/header';
 import Footer from '../components/Footer';
-import styles from '../styles/Home.module.css'
-import Head from 'next/head'
-import Image from 'next/image'
+import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 const cloudmonitoring = () => {
     return (
-        <React.Fragment>
+        <>
               <Head>
             <title>Cloud Monitoring - Clear Cloudify</title>
             <meta name="description" content="Clear Cloudify Cloud Consulting Company" /> 
@@ -23,7 +21,7 @@ addressing many business-critical tasks that require manual intervention, consum
 and are expensive.</p>
 <p>Apparently, there is a growing cloud adoption globally owing to its abilities to handle heavy workloads
 and provide enhanced mobility. However, on the other side of the cloud services utilization are some critical challenges that the IT industry is facing, such as support from the service providers, security,
-storage, compliance and others. ‘Cloud Monitoring’ has answers for these cloud-related challenges!
+storage, compliance and others. Cloud Monitoring has answers for these cloud-related challenges!
 </p>
 <p>A Cloud Monitoring Strategy is divided between Infrastructure Management and Configuration
 Management, and typically involves:</p>
@@ -41,7 +39,7 @@ Aternity, Redgate, Datadog, Opsview, Logic Monitor, PagerDuty, Dynatrace, Stack 
 Zenoss.</p>
 <strong>Cloud Monitoring Benefits</strong>
 <p>Cloud monitoring offers a wide range of solutions for a safe and secure cloud environment.</p>
-<span>Some of the major benefits include:</span>
+<span>Some of the major benefits include</span>
 <ul>
     <li>Quick installation backed by infrastructure and configurations in place</li>
     <li>Host maintains dedicated tools including hardware, relieving burden</li>
@@ -64,13 +62,13 @@ effectively implement cloud monitoring.</p>
     <li>Ensure rules and services go hand-in-hand for effective utilization of resources</li>
     <li>Always store monitor data separately from related apps and services, and keep it accessible to
 related stakeholders</li>
-<li>It’s always important to test your tools’ performance to ensure they don’t fail when required</li>
+<li>Its always important to test your tools performance to ensure they dont fail when required</li>
 </ul>
 <p>As the number of cyber attacks rise, its important for cloud monitoring services to detect possible
-breaches, identify security gaps, and secure the network well before an attack happens. <br/> It’s time to add an effective ‘Cloud Based Monitoring’ system to your cloud environment.</p>
+breaches, identify security gaps, and secure the network well before an attack happens. <br/> Its time to add an effective Cloud Based Monitoring system to your cloud environment.</p>
 </div>
 <Footer/>
-           </React.Fragment>
+           </>
     )
 }
 
