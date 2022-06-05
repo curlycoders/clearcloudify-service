@@ -8,7 +8,7 @@ export default function Header() {
     <div className={styles.container}>   
   <div className={styles.headermain}>
     <div className={styles.logo}>
-    <Image src='/logo.png' width="160" height="60" alt='Logo'></Image></div>
+    <Image src='/logo.png' width="160" height="75" alt='Logo'></Image></div>
     <div className={styles.menu}>
     <ul>
 		<li><Link href="#">Services</Link>

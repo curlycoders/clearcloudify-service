@@ -64,12 +64,22 @@
  .aboutdesc .col6:last-child p {
    line-height:30px; color: #333; margin-bottom: 40px;
  }
+ .blogfeatureinit { width:100%; }
+ .blogsocialshare {float: left;
+  width: 100%;
+  padding: 20px 0px 0px 0px;}
+  .blogsocialshare button { margin-right:10px;}
  .postdateauthor { padding: 13px 0;
   text-align: left;
   font-size: 14px;}
-  .postdateauthor span { text-transform: uppercase;
-    font-weight: bold;
-    font-family: monospace;}
+  .postdateauthor span { 
+    padding-left: 10px;
+    border-left: 1px solid #000815;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: monospace;
+  }
+  
     .postdateauthor a {  color: #049de1;
       font-weight: bold;}
   .blogpostlist{
@@ -80,7 +90,37 @@
     margin-bottom: 30px;
     background: #fff;
   }
+  .casecontainer { min-height: 600px;}
+  .casebg {
+    max-width: calc(100% - 0px);
+    height: calc(100% - 6px);
+    position: absolute;
+    width: 100%;
+    top: -16px;
+    right: 0px;
+    z-index: -1;
+    background: rgb(167, 239, 184);
+    border-radius: 10px;
+    left: 17px;
+  }
+  .casecontain { 
+    position: relative;
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(247deg, rgba(211, 241, 218, 0.7), rgba(221, 250, 228, 0.7));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgb(211 241 218 / 70%);
+  }
+  .casecontain .col6:first-child { padding:30px 40px;}
+  .casecontain .col6:last-child { padding:30px 0 0;}
+  .casecontain h1 { font-size:25px;}
   .blogpostlist .col4 { padding:0;}
+  .blogpostlist .col4 img { border-radius:15px;}
+  .blogpostlist .col8 a {      background: #185693;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 14px;}
   .blogpostlist h1 { font-size:22px; margin:0; text-align: left;}
   .blogpostlist p { font-size:15px; line-height:25px;     margin-top: 0;} 
  .aboutdesc .col6:last-child a { background:#fff; padding:15px 25px; color:#000;} 

@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Footer()  {  
+export default function footer()  {  
     return( 
         <div className={styles.footersection}>
             <div className={styles.container}>  
