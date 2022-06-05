@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css';
 
-export default function Testimonials() {
+export default function testimonials() {
   return (
     <div className={styles.clientsaysection}>
     <div className={styles.container}>

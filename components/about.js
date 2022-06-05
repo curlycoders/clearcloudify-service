@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function About() {
+export default function about() {
   return (
     <div className={styles.aboutdesc}> 
       <div className={styles.container}>

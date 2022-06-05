@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function News() {
+export default function news() {
   return (
     <div className={styles.blogsectrls}>
     <div className={styles.container}>

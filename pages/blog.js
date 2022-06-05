@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function Blog() {
+export default function blog() {
   return (
       <>
        <Head>

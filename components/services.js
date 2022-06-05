@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link';  
 import Image from 'next/image'
 
-export default function Services() {
+export default function services() {
   return (
     <div className={styles.servicesctrl}> 
     <div className={styles.container}>

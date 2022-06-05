@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 
-export default function Subscribe() {
+export default function subscribe() {
   return (
     <div className={styles.subscribectrl}>
     <div className={styles.container}>
