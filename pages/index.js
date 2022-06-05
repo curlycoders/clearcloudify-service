@@ -3,9 +3,9 @@ import styles from '../styles/Home.module.css';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Services from '../components/services';
-import About from '../components/About';  
-import News from '../components/News';
-import Testimonials from '../components/Testimonials';
+import About from '../components/about';  
+import News from '../components/news';
+import Testimonials from '../components/testimonials';
 import Subscribe from '../components/newsletter'; 
 
 export default function Home() {
